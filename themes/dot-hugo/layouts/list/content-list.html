@@ -1,0 +1,101 @@
+
+{{ define "main" }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+
+  .filters {
+margin: 0 0 1em;
+padding: 0;
+}
+
+.filters__item {
+  display: inline-block;
+}
+
+  .filters__btn {
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+  }
+
+ a:hover {
+    color: white;
+    padding: 1.25em;
+  }
+
+  a:focus {
+    color: white;
+  }
+
+.gallery {
+margin: 0;
+padding: 0;
+}
+
+.gallery__item {
+  background: black;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+// These color styles are just for testing
+
+.gallery__item[data-color="red"] {
+  background: red;
+}
+
+.gallery__item[data-color="orange"] {
+  background: orange;
+}
+
+.gallery__item[data-color="yellow"] {
+  background: yellow;
+}
+
+.gallery__item[data-color="green"] {
+  background: green;
+}
+
+.is-hidden {
+display: none;
+}
+</style>
+<section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{ i18n "all_lessons" | safeHTML }}</h2>
+          <ul class="filters">
+            <li class="filters__item"><a href="#"class="filters__btn  js-filter" data-attribute="all">All</a></li>
+            <li class="filters__item"><a href="#" class="filters__btn  js-filter" data-attribute="Lesson">Lessons</a></li>
+            <li class="filters__item"><a href="#" class="filters__btn  js-filter" data-attribute="Path">Paths</a></li>
+          </ul>
+        </div>
+        {{ "<!-- topic-item -->" | safeHTML }}
+            {{ range (where .Site.Pages "Type" "docs") }}
+        
+<div class="col-lg-4 col-sm-6 mb-4 js-filterable" data-attribute="{{.Params.sort}}" >
+           <a href="{{ .Permalink }}" class="px-4 py-5 bg-white shadow text-center d-block match-height"> 
+            {{ with .Params.ribbon }}
+            <p class="mb-0 hvr-bob">{{ . |safeHTML}} </p>{{end}} 
+            <br>
+            {{ with .Params.icon}}<i class="{{.}} icon text-primary d-block mb-4"></i>{{end}}
+            <h3 class="mb-3 mt-0">{{ .Title }}</h3>
+            {{with .Params.description}}
+            <p class="mb-0">{{ . | safeHTML }}</p>{{end}}
+            <br>
+            {{with .Params.buttons}}
+            <p class="mb-0">{{ . | safeHTML }}</p>{{end}}
+            <br>
+            {{with .Params.length}}
+            <p class="mb-0">⏳: {{ . | markdownify }}</p>{{end}}
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
+

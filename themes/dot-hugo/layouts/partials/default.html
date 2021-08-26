@@ -29,8 +29,12 @@
               {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
             </ul>
           </div>
+          
           {{ end }}
+          <p style="text-align: right;" class="post-meta pb-3 mb-0 mt-3">Click "Next" to continue.</p>
+
           <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on {{ .Lastmod.Format "02 Jan 2006" }}</p>
+          
           <nav data-intro="Proceed through a lesson or path using this button." data-position="right" class="pagination mt-3">
             <!-- Next prev page -->
             {{ $currentNode := . }}
@@ -64,10 +68,10 @@
             {{ end }}
 
             {{with ($.Scratch.Get "prevPage")}}
-            <a data-intro="Go to a previous page by clicking on this button." data-position="left" class="nav nav-prev" href="{{.Permalink }}" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">{{.Title}}</span></a>
+            <a data-intro="Go to a previous page by clicking on this button." data-position="left" class="nav btn-danger btn nav-prev" style="padding-left: 10px; color: white;" href="{{.Permalink }}" type="button" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">{{.Title}}</span></a>
             {{end}}
             {{with ($.Scratch.Get "nextPage")}}
-            <a class="nav nav-next" href="{{.Permalink }}" aria-label="Previous page" > <span class="d-none d-md-block">{{.Title}}</span><i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next btn-danger btn" href="{{.Permalink }}" style="padding-left: 10px; color: white;" aria-label="Previous page" > <span class="d-none d-md-block">Next</span><i class="ti-arrow-right ml-2"></i></a>
             {{end}}
           </nav>
         </div>

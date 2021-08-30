@@ -54,6 +54,19 @@
                 href="https://brocktnl.github.io/library-reseach-fundamentals/start/"
                 />
   </url><url>
+    <loc>https://brocktnl.github.io/omni/start/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://brocktnl.github.io/fr/omni/start/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brocktnl.github.io/omni/start/"
+                />
+  </url><url>
     <loc>https://brocktnl.github.io/peer-review/start/</loc>
     <lastmod>2021-07-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -184,6 +197,19 @@
                 href="https://brocktnl.github.io/search-terms/learning-objective/"
                 />
   </url><url>
+    <loc>https://brocktnl.github.io/omni/video/</loc>
+    <lastmod>2020-07-12T10:42:26+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://brocktnl.github.io/fr/omni/video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brocktnl.github.io/omni/video/"
+                />
+  </url><url>
     <loc>https://brocktnl.github.io/library-reseach-fundamentals/peerreview/</loc>
     <lastmod>2020-07-12T10:42:26+06:00</lastmod>
     <xhtml:link
@@ -234,6 +260,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://brocktnl.github.io/scholarly-sources/video/"
+                />
+  </url><url>
+    <loc>https://brocktnl.github.io/omni/activity/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://brocktnl.github.io/fr/omni/activity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brocktnl.github.io/omni/activity/"
                 />
   </url><url>
     <loc>https://brocktnl.github.io/peer-review/activity/</loc>
@@ -457,6 +496,19 @@
                 href="https://brocktnl.github.io/library-reseach-fundamentals/feedback/"
                 />
   </url><url>
+    <loc>https://brocktnl.github.io/omni/feedback/</loc>
+    <lastmod>2021-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://brocktnl.github.io/fr/omni/feedback/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brocktnl.github.io/omni/feedback/"
+                />
+  </url><url>
     <loc>https://brocktnl.github.io/peer-review/feedback/</loc>
     <lastmod>2021-07-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -546,6 +598,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://brocktnl.github.io/library-reseach-fundamentals/export/"
+                />
+  </url><url>
+    <loc>https://brocktnl.github.io/omni/export/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://brocktnl.github.io/fr/omni/export/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brocktnl.github.io/omni/export/"
                 />
   </url><url>
     <loc>https://brocktnl.github.io/peer-review/export/</loc>

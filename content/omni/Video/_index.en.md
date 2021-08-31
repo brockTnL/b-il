@@ -17,31 +17,15 @@ Omni is a powerful tool with a sophisticated array of filtering and search optio
 
 <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-red w3-left-align">Video transcript</button>
 <div id="Demo1" class="w3-container w3-hide">
-<p>In university, you'll often have to cite scholarly, peer reviewed information to back up your arguments and perspectives.
-There are a lot of different options. Like journal articles, books,
-book chapters, and more. It can get tricky making heads or tails
-of peer review. This video will show you how.</p>
-
-<p>
-Using peer reviewed
-information is important because of the unique quality control
-process that this information must go through before it is published.
-So, before an article, for example, is published
-several other experts review the findings of the article to ensure
-that the information is accurate and methods appropriate. In some cases,
-the reviewers will reject the article. In others, they will
-send the article back to the author and ask for specific revisions. In
-very rare cases, the article is accepted without any revisions
-at all. This process isn't perfect, and it can take
-a very long time. But it's the main quality cont
-rol process underpinning academic research since the first peer reviewed
-journal in 1665.
+<p>Hello and welcome to "Meet Omni," an introduction to the library's search tool to find books, articles, and other resources. In this short video we will explore some of the key features of Omni. Let's begin.
 </p>
 
 <p>
-It can be really frustrating working with
-all the different types of information out there. If you ever need a helping hand
-just reach out to a librarian. We're here to help.
+You can find Omni on the library's main page. Simply type in a keyword or phrase in the white bar and click search to enter the Omni interface. You are now in the Omni interface. There are free main areas in this view. Search and account features; search features; and in the center right, results. For full access to online resources and Omni features, sign in with your Brock credentials. You will then be returned to your initial search results. You may modify your search results by selecting any number of filters on the left side of the page. For example, you can select 'available online' to view results accessible from your computer. You may click on the filtr below to see 'peer-reviewed journals' and articles. Selecting any specific 'resource type' will filter the results for that format. Looking for the most recent publication? Enter a date range and click 'refine' to narrow down the results. Expore other filters to modify your search results. This view shows you more detailed information about the resource. Located at the top is the title, author, pub date, availability, and where it can be found in the library. Below are several options, including a citation generator, the option to send the record by email, a link to the record, and various exporting functions compatible with citation management tools. Don't have time to find the book in the library? Click the 'request' button and fill in the required information. We'll email you when the resource is ready to be picked up at the askUs desk. To save this resource for later you may 'pin it' or add it to your favourites by clicking on the grey thumbtack. Access your library account by clicking on your name in the upper right. Review the items you have brorowed, your pending requests, as well as any outstanding fines or fees. Easily renew all borrowed items by clicking 'renew all'. Alternatively, select 'loans' to renew individual items.
+</p>
+
+<p>
+Thank you for following along with us in this introduction to the library's online search tool, Omni. We encourage you to explore its many features, begin searching the library's many resources, and connect with us for guidance if needed.
 </p>
 
 </div>

@@ -7,7 +7,7 @@ type: "docs"
 keywords: ["featured"]
 buttons: '🚧'
 sort: "Lesson"
-ribbon: "<img style='width: 100%;' src='/images/lesson-ribbon.svg'>"
+ribbon: "<img style='width: 100%;' alt='graphic of a ribbon with the word lesson on it' src='/images/lesson-ribbon.svg'>"
 ---
 
 Many businesses employ full-time pricing analysts or hire an analyst as a consultant for a particular project or concern.

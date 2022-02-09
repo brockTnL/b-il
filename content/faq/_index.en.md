@@ -42,6 +42,6 @@ Got an idea for a lesson, or want to help us make ours better? Sure thing. You c
 {{</ faq >}}
 </div>
 <div class="col-lg-4">
-    <img style="width: 100%;" src="/images/student-prof.svg">
+    <img style="width: 100%;" alt='graphic of a student and a professor speaking' src="/images/student-prof.svg">
 </div>
 </div>

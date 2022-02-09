@@ -10,7 +10,7 @@
         <br><br>
         You can start by searching specific content at the top of this page, choose a popular lesson below, or by browsing through our <a href="/lessons">lesson catalogue</a>. </p>
       </div>
-      <div class="col-lg-6 justify-content-center"><img style="width: 100%;" src="images/uni-students.svg"></div>
+      <div class="col-lg-6 justify-content-center"><img style="width: 100%;" alt="graphic of university students" src="images/uni-students.svg"></div>
     </div>
   </div>
  </section>
@@ -20,14 +20,14 @@
      <div class="row justify-content-center">
        <h2 class="section-title justify-content-center">Your Choice</h2>
        <div class="col-12 text-center" style="padding-bottom: 30px; font-size: 1.1em;">We've designed our lessons with the learner's choice in mind. You can choose to engage with individual <strong>lessons</strong> or set off on a learning <strong>path.</strong> It's up to you!</div>
-       <div class="col-lg-3 col-md-4 col-sm-2"><img class="" style="padding-bottom: 30px; width: 80%;" src="/images/student-male-pointing.svg"></div>
+       <div class="col-lg-3 col-md-4 col-sm-2"><img class="" style="padding-bottom: 30px; width: 80%;" alt="graphic of a male student pointing up" src="/images/student-male-pointing.svg"></div>
 
        <div class="col-lg-4 col-md-4 col-sm-4 mb-4 justify-content-center">
-<img class="hvr-bob" style="width: 100%;" src="/images/lesson-ribbon.svg">
+<img class="hvr-bob" style="width: 100%;" alt="graphic of a banner with the word lesson on it" src="/images/lesson-ribbon.svg">
 <p class="mb-0" style="font-size: 1.1em;"><strong>Lessons</strong> generally focus on one particular topic. Lessons include a short video (around 3 minutes) followed by an activity to test your understanding. Lessons are meant to be quick primers on a subject.</p>
        </div>
        <div class="col-lg-4 col-md-4 col-sm-4 mb-4">
-        <img class="hvr-bob" style="width: 100%;" src="/images/path-ribbon.svg">
+        <img class="hvr-bob" style="width: 100%;" alt="graphic of a banner with the word path on it" src="/images/path-ribbon.svg">
         <p class="mb-0" style="font-size: 1.1em;"><strong>Paths</strong> are a collection of lessons specifically arranged to give you a more in-depth understanding of how to conduct research in a university setting. Paths include several videos followed by activities that test your understanding.</p>
       </div>
      </div>
@@ -44,7 +44,7 @@
         {{ range first 3 (where .Site.Pages "Type" "docs")}}
         <div class="col-lg-4 col-sm-6 mb-4">
           <a href="{{ .Permalink }}" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-            {{ with .Params.ribbon}}<p class="mb-0 hvr-bob">{{. | safeHTML }}</p>{{ end}}
+            {{ with .Params.ribbon}}<p class="mb-0 hvr-bob" alt="graphic of a ribbon with the word lesson on it">{{. | safeHTML }}</p>{{ end}}
             {{ with .Params.icon}}<i class="{{.}} icon text-primary d-block mb-4"></i>{{end}}
             <h3 class="mb-3 mt-0">{{ .Title }}</h3>
             {{with .Params.description}}<p class="mb-0">{{. | markdownify}}</p>{{end}}
@@ -63,7 +63,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
-          <img style="max-width: 280px; width: 100%" src="images/student-idle-female.svg">
+          <img style="max-width: 280px; width: 100%" alt="graphic of idle female student" src="images/student-idle-female.svg">
         </div>
         <div class="col-lg-6">
           <div class="section px-3 bg-white shadow text-center">
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="col-lg-3">
-          <img style="" src="images/prof-waving.svg">
+          <img style="" alt="graphic of female professor waving" src="images/prof-waving.svg">
         </div>
       </div>
     </div>

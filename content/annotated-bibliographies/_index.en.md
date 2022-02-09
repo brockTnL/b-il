@@ -8,7 +8,7 @@ type: "docs"
 keywords: ["featured"]
 length : "10 minutes"
 sort: "Lesson"
-ribbon: "<img style='width: 100%; ' src='/images/lesson-ribbon.svg'>"
+ribbon: "<img style='width: 100%;' alt='graphic of a ribbon with the word lesson on it' src='/images/lesson-ribbon.svg'>"
 ---
 <style>
     .content img {
@@ -27,6 +27,6 @@ Annotated bibliographies are a common assignment in university. Annotated biblio
 Click on the button to the right below when you’re ready to begin.
 </div>
 <div class="col-lg-3">
-<img style="width: 100%;" src="../images/student-sunglasses-male.svg">
+<img style="width: 100%;" alt='graphic of a student looking at their phone' src="../images/student-sunglasses-male.svg">
 </div>
 </div>

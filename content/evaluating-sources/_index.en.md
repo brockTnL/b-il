@@ -8,7 +8,7 @@ keywords: "evaluate"
 length : "8 minutes"
 buttons: "<button type='button' class='btn btn-primary btn-sm'>Video</button> + <button type='button' class='btn btn-primary btn-sm'>Activity</button>"
 sort: "Lesson"
-ribbon: "<img style='width: 100%;' src='/images/lesson-ribbon.svg'>"
+ribbon: "<img style='width: 100%;' alt='graphic of a ribbon with the word lesson on it' src='/images/lesson-ribbon.svg'>"
 ---
 
 There are so many different types of sources available to you. How do you decide which one to use? This lesson will show you how. Includes a video and interactive activity.

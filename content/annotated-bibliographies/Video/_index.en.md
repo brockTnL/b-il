@@ -5,15 +5,15 @@ lastmod: 2021-08-04
 weight: 2
 draft: false
 # search related keywords
-keywords: ["money","payment"]
+keywords: 
 ---
 
 Please watch the following video (3:35) to learn how to ace your next annotated bibliography. 
-<iframe src="https://h5pstudio.ecampusontario.ca/h5p/25758/embed" width="994" height="620" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe title="video" src="https://h5pstudio.ecampusontario.ca/h5p/25758/embed" width="994" height="620" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
-<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-red w3-left-align">Video transcript</button>
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-red w3-left-align" style="background-color: #CC0000!important;">Video transcript</button>
 <div id="Demo1" class="w3-container w3-hide">
 <p>One of the most common assignments in university is the annotated bibliography. You’re probably used to writing bibliographies towards the end of a research assignment; annotated bibliographies come at the beginning of the research process. Figuring out annotated bibliographies is an important skill that will serve you well even after you’ve finished your studies. This video will show you how.</p>
 <p>You may have had to write a bibliography for a paper in the past. You attach it to the end of your assignment, using it to point to sources that you’ve referenced. An annotated bibliography is different in that it usually is completed before you dive into the assignment. Your course instructor likely has specific instructions about what they’d like to see included in your annotated bibliography; however, the following should apply in most circumstances. </p>

@@ -6,7 +6,7 @@ description: "A one-stop-shop for library research fundamentals."
 type : "docs"
 length : "20 minutes"
 sort: "Path"
-ribbon: "<img style='width: 100%;' src='/images/path-ribbon.svg'>"
+ribbon: "<img style='width: 100%;' alt='graphic of a ribbon with the word path on it' src='/images/path-ribbon.svg'>"
 ---
 
 In this lesson, you'll learn about the fundamentals of library research, including peer review, determining what type of source you need, strategies for finding academic research, and techniques for determining whether a source is appropriate.

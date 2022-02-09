@@ -28,10 +28,11 @@ author = "Brock Teaching and Learning"
 image = "images/brock-library-logo.png" # this image will be used as fallback if a page has no image of its own
 
 # customize color
-primary_color = "red"
+primary_color = "#CC0000"
 body_color = "#f9f9f9"
-text_color = "#636363"
+text_color = "#242738"
 text_color_dark = "#242738"
+text_color_contrast = "#ffffff"
 white_color = "#ffffff"
 light_color = "#f8f9fa"
 
@@ -60,7 +61,7 @@ link = "https://github.com/brockTnL/brocktnl.github.io"
 languageName = "En"
 languageCode = "en-us"
 weight = 1
-copyright = "Copyright © 2021 - . Site managed by Brock Library, eLearning Team. Site built using Hugo, with Dot theme by [Themefisher](https://github.com/themefisher/dot-hugo-documentation-theme)"
+copyright = "Copyright © 2021 - . Site managed by Brock Library, eLearning Team. Site built using Hugo, with Dot theme by Themefisher."
 
 # banner
 [Languages.en.params.banner]

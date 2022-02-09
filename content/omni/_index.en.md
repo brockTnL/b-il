@@ -6,7 +6,7 @@ description: "Omni is a one-stop search search tool for books, articles, newspap
 type : "docs"
 buttons: '🚧'
 sort: "Lesson"
-ribbon: "<img style='width: 100%;' src='/images/lesson-ribbon.svg'>"
+ribbon: "<img style='width: 100%;' alt='graphic of a ribbon with the word lesson on it' src='/images/lesson-ribbon.svg'>"
 
 ---
 

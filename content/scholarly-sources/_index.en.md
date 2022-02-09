@@ -7,7 +7,7 @@ type : "docs"
 length : "8 minutes"
 buttons: "<button type='button' class='btn btn-primary btn-sm'>Video</button> + <button type='button' class='btn btn-primary btn-sm'>Activity</button>"
 sort: "Lesson"
-ribbon: "<img style='width: 100%;' src='/images/lesson-ribbon.svg'>"
+ribbon: "<img style='width: 100%;'  alt='graphic of a ribbon with the word lesson on it' src='/images/lesson-ribbon.svg'>"
 ---
 <div class="row">
 <div class="col-lg-9">

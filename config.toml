@@ -113,7 +113,7 @@ weight = 5
 languageName = "Fr"
 languageCode = "fr-fr"
 weight = 2
-copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Copyright © 2022 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
 
 # banner
 [Languages.fr.params.banner]

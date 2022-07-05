@@ -2,7 +2,7 @@
 title: "What are Databases?"
 date: 2018-12-28T11:02:05+06:00
 icon: "ti-harddrives"
-description: "Work in progress."
+description: "Use this database, use that database! What's a database? This lesson will explain what scholarly databases are and how they will help you find scholarly work."
 type : "docs"
 buttons: '🚧'
 sort: "Lesson"

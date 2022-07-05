@@ -17,9 +17,9 @@ unsafe = true
 ############################# Default Parameters ##########################
 [params]
 # logo is for all page
-logo = "images/brock-logo-white.svg"
+logo = "images/brock-logo-black.svg"
 # logo white is for homepage logo, you can use colorful logo too...
-logo_white = "images/brock-logo-black.svg"
+logo_white = "images/brock-logo-white.svg"
 # when logo is empty, it will shown your site title
 
 # OpenGraph / Twitter Card metadata

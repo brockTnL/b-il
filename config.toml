@@ -19,7 +19,7 @@ unsafe = true
 # logo is for all page
 logo = "images/brock-logo-black.svg"
 # logo white is for homepage logo, you can use colorful logo too...
-logo_white = "images/brock-logo-white.svg"
+logo_white = "images/brock-logo-black.svg"
 # when logo is empty, it will shown your site title
 
 # OpenGraph / Twitter Card metadata
@@ -67,7 +67,7 @@ copyright = "Copyright © 2022 - . Site managed by Brock Library, eLearning Team
 [Languages.en.params.banner]
 title = "What do you want to know?"
 subtitle = "Find lessons, research tips, and advice from our librarian experts"
-bg_image = "images/banner-1.jpg"
+bg_image = ""
 
 # call to action
 [Languages.en.params.cta]
